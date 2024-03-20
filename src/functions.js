@@ -24,7 +24,17 @@ function indiceDoMaior(array) {
 }
 
 /* console.log(indiceDoMaior[2, 3, 6, 7, 10, 1]); */
+
 // Requisito 3 - Crie a função indiceDoMenor
+const indiceDoMenor = (array) => {
+  let menorValor = 0;
+  for (let index = 1; index < array.length; index += 1) {
+    if (array[index] < array[menorValor]) {
+      menorValor = index;
+    }
+  }
+  return menorValor;
+};
 
 // Requisito 4 - Crie a função maiorPalavra
 
