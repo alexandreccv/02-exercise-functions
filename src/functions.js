@@ -1,5 +1,16 @@
 // Requisito 1 - Crie a função verificaPalindromo
 
+// split('') divide a palavra em um array de caracteres.
+// reverse() inverte a ordem dos elementos no array
+// join('') junta os caracteres do array de volta em uma string, formando a palavra invertida.
+const verificaPalindromo = (palavra) => {
+  let palindromo = palavra.split('').reverse().join('');
+  return palavra === palindromo;
+};
+
+/* console.log( verificaPalindromo('arara'));
+console.log( verificaPalindromo('cachorro')); */
+
 // Requisito 2 - Crie a função indiceDoMaior
 
 // Requisito 3 - Crie a função indiceDoMenor
