@@ -13,6 +13,17 @@ console.log( verificaPalindromo('cachorro')); */
 
 // Requisito 2 - Crie a função indiceDoMaior
 
+function indiceDoMaior(array) {
+  let maiorValor = 0;
+  for (let index = 1; index < array.length; index += 1) {
+    if (array[index] > array[maiorValor]) {
+      maiorValor = index;
+    }
+  }
+  return maiorValor;
+}
+
+/* console.log(indiceDoMaior[2, 3, 6, 7, 10, 1]); */
 // Requisito 3 - Crie a função indiceDoMenor
 
 // Requisito 4 - Crie a função maiorPalavra
