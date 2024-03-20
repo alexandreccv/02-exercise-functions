@@ -38,6 +38,20 @@ const indiceDoMenor = (array) => {
 
 // Requisito 4 - Crie a função maiorPalavra
 
+const maiorPalavra = (array) => {
+  maisCaracteres = '';
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index].length > maisCaracteres.length) {
+      maisCaracteres = array[index];
+    }
+    /* console.log(maisCaracteres) */
+    /*  console.log(  ` ${index}  -   ${array[index]}`); */
+  }
+  return maisCaracteres;
+};
+
+/* console.log(maiorPalavra(['HTML', 'CSS','JavaScript', 'GitHub', 'Unix'])); */
+
 // Requisito 5 - Crie a função maisRepetido
 
 // Requisito 6 - Crie a função somatorio
