@@ -54,9 +54,49 @@ const maiorPalavra = (array) => {
 
 // Requisito 5 - Crie a função maisRepetido
 
+function maisRepetido(array) {
+  let contador = {};
+  let maisFrequente = array[0];
+  let maxContagem = 1;
+
+  for (let index = 0; index < array.length; index += 1) {
+    let elemento = array[index];
+    if (contador[elemento] == null) {
+      contador[elemento] = 1;
+    } else {
+      contador[elemento] += 1;
+    }
+
+    if (contador[elemento] > maxContagem) {
+      maisFrequente = elemento;
+      maxContagem = contador[elemento];
+    }
+  }
+  return maisFrequente;
+}
+
 // Requisito 6 - Crie a função somatorio
+function somatorio(numero) {
+  if (numero < 0) {
+    return "ERRO";
+  } else {
+    let soma = 0;
+    for (let index = 1; index <= numero; index += 1) {
+      soma += index;
+    }
+    return soma;
+  }
+}
 
 // Requisito 7 - Crie a função verificaFimPalavra
+function verificaFimPalavra(palavra1,palavra2){
+  if(palavra2.length > palavra1.length){
+    return false;
+  }else{
+    return palavra1.endsWith(palavra2);
+  }
+}
+
 
 // Não modifique essas linhas
 module.exports = {
