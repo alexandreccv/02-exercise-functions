@@ -78,8 +78,8 @@ function maisRepetido(array) {
 // Requisito 6 - Crie a função somatorio
 function somatorio(numero) {
   if (numero < 0) {
-    return "ERRO";
-  } else {
+    return 'ERRO';
+  } {
     let soma = 0;
     for (let index = 1; index <= numero; index += 1) {
       soma += index;
@@ -89,14 +89,12 @@ function somatorio(numero) {
 }
 
 // Requisito 7 - Crie a função verificaFimPalavra
-function verificaFimPalavra(palavra1,palavra2){
-  if(palavra2.length > palavra1.length){
+function verificaFimPalavra(palavra1, palavra2) {
+  if (palavra2.length > palavra1.length) {
     return false;
-  }else{
-    return palavra1.endsWith(palavra2);
   }
+  return palavra1.endsWith(palavra2);
 }
-
 
 // Não modifique essas linhas
 module.exports = {
