@@ -1,10 +1,15 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+#  Functions in practice
+
+## 1. Crie uma função que verifica palíndromos
+
+## 2. Crie uma função que retorne o índice do maior valor
+
+## 3. Crie uma função que retorne o índice do menor valor
+
+## 4. Crie uma função que retorna a maior palavra
+
+## 5. Crie uma função que retorne o número mais frequente
+
+## 6. Crie uma função que retorna o somatório de um número
+
+## 7. Crie uma função que verifica se uma `string` é o final de outra
